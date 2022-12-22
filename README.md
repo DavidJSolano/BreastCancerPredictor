@@ -1,0 +1,2 @@
+# BreastCancerPredictor
+This program utilizes machine-learning in order to predict whether a cell is malignant or not based on its characteristics (e.g. radius, smoothness, etc.)
