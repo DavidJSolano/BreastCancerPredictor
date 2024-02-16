@@ -47,8 +47,8 @@ cm = confusion_matrix(Y_test, Y_pred)
 num_rows, num_cols = X_test.shape
 accuracy = (cm[0, 0] + cm[1, 1])/num_rows
 
-print ("The accuracy of this test given the appropriate input is around 98.25%!\n")
-if (Y_pred == 1):
+print("The accuracy of this test given the appropriate input is around 98.25%!\n")
+if Y_pred == 1:
     print("This cell is likely cancerous!")
 else:
     print("This cell is likely normal!")
